@@ -1,82 +1,89 @@
 fileFormatVersion: 2
-guid: 03a33d790d9514d9c8b3d717f744bb53
-timeCreated: 1474204241
+guid: b0297ea8024cc4343842557ff3b33638
+timeCreated: 1474808647
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Object
-    100004: Object001
-    100006: Object003
-    100008: Object005
-    100010: Object007
-    100012: Object009
-    100014: Object010
-    100016: Object011
-    100018: Object012
-    100020: Object013
-    100022: Object014
-    100024: Object015
-    100026: Object016
-    100028: Object017
+    100002: Object028
+    100004: Object029
+    100006: Object030
+    100008: Object031
+    100010: Object032
+    100012: Object033
+    100014: Object034
+    100016: Object035
+    100018: Object036
+    100020: Object038
+    100022: Object039
+    100024: Object040
+    100026: Object042
+    100028: Object044
+    100030: Object045
+    100032: Particle View 001
     400000: //RootNode
-    400002: Object
-    400004: Object001
-    400006: Object003
-    400008: Object005
-    400010: Object007
-    400012: Object009
-    400014: Object010
-    400016: Object011
-    400018: Object012
-    400020: Object013
-    400022: Object014
-    400024: Object015
-    400026: Object016
-    400028: Object017
-    2300000: Object
-    2300002: Object001
-    2300004: Object003
-    2300006: Object005
-    2300008: Object007
-    2300010: Object009
-    2300012: Object010
-    2300014: Object011
-    2300016: Object012
-    2300018: Object013
-    2300020: Object014
-    2300022: Object015
-    2300024: Object016
-    2300026: Object017
-    3300000: Object
-    3300002: Object001
-    3300004: Object003
-    3300006: Object005
-    3300008: Object007
-    3300010: Object009
-    3300012: Object010
-    3300014: Object011
-    3300016: Object012
-    3300018: Object013
-    3300020: Object014
-    3300022: Object015
-    3300024: Object016
-    3300026: Object017
-    4300000: Object001
-    4300002: Object
-    4300004: Object003
-    4300006: Object005
-    4300008: Object007
-    4300010: Object009
-    4300012: Object010
-    4300014: Object011
-    4300016: Object012
-    4300018: Object013
-    4300020: Object014
-    4300022: Object015
-    4300024: Object016
-    4300026: Object017
+    400002: Object028
+    400004: Object029
+    400006: Object030
+    400008: Object031
+    400010: Object032
+    400012: Object033
+    400014: Object034
+    400016: Object035
+    400018: Object036
+    400020: Object038
+    400022: Object039
+    400024: Object040
+    400026: Object042
+    400028: Object044
+    400030: Object045
+    400032: Particle View 001
+    2300000: Object028
+    2300002: Object029
+    2300004: Object030
+    2300006: Object031
+    2300008: Object032
+    2300010: Object033
+    2300012: Object034
+    2300014: Object035
+    2300016: Object036
+    2300018: Object038
+    2300020: Object039
+    2300022: Object040
+    2300024: Object042
+    2300026: Object044
+    2300028: Object045
+    3300000: Object028
+    3300002: Object029
+    3300004: Object030
+    3300006: Object031
+    3300008: Object032
+    3300010: Object033
+    3300012: Object034
+    3300014: Object035
+    3300016: Object036
+    3300018: Object038
+    3300020: Object039
+    3300022: Object040
+    3300024: Object042
+    3300026: Object044
+    3300028: Object045
+    4300000: Object042
+    4300002: Object028
+    4300004: Object029
+    4300006: Object030
+    4300008: Object040
+    4300010: Object045
+    4300012: Object044
+    4300014: Object034
+    4300016: Object035
+    4300018: Object036
+    4300020: Object031
+    4300022: Object032
+    4300024: Object033
+    4300026: Object039
+    4300028: Object038
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -99,7 +106,69 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Object042
+        weight: 1
+      - path: Object042/Object028
+        weight: 1
+      - path: Object042/Object028/Object029
+        weight: 1
+      - path: Object042/Object028/Object029/Object030
+        weight: 1
+      - path: Object042/Object031
+        weight: 1
+      - path: Object042/Object031/Object032
+        weight: 1
+      - path: Object042/Object031/Object032/Object033
+        weight: 1
+      - path: Object042/Object034
+        weight: 1
+      - path: Object042/Object034/Object035
+        weight: 1
+      - path: Object042/Object034/Object035/Object036
+        weight: 1
+      - path: Object042/Object039
+        weight: 1
+      - path: Object042/Object039/Object038
+        weight: 1
+      - path: Object042/Object040
+        weight: 1
+      - path: Object042/Object040/Object045
+        weight: 1
+      - path: Object042/Object040/Object045/Object044
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 50
     isReadable: 1
   meshes:
     lODScreenPercentages: []

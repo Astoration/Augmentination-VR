@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{C0FD7777-4B26-8EBF-FB70-6A63A9D6AA0E}") = "TalesSavior", "Assembly-CSharp-firstpass.csproj", "{D1EBBEAB-4284-5758-791F-ADF0D2E27DD4}"
+EndProject
 Project("{C0FD7777-4B26-8EBF-FB70-6A63A9D6AA0E}") = "TalesSavior", "Assembly-CSharp.csproj", "{04F9C97D-A3C6-9C2D-9563-35B4FEBCAA3E}"
 EndProject
 Project("{C0FD7777-4B26-8EBF-FB70-6A63A9D6AA0E}") = "TalesSavior", "Assembly-CSharp-Editor.csproj", "{75774554-E1F6-B4CC-9F0E-0867006EA2AA}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1EBBEAB-4284-5758-791F-ADF0D2E27DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EBBEAB-4284-5758-791F-ADF0D2E27DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EBBEAB-4284-5758-791F-ADF0D2E27DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EBBEAB-4284-5758-791F-ADF0D2E27DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04F9C97D-A3C6-9C2D-9563-35B4FEBCAA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{04F9C97D-A3C6-9C2D-9563-35B4FEBCAA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04F9C97D-A3C6-9C2D-9563-35B4FEBCAA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU

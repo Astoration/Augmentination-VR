@@ -83,6 +83,8 @@ namespace TheKnightsOfUnity.LineRendererPro
         [Tooltip("Should line loop (the last point will be connected with the first one by segment).")] 
         public bool loop  = false;
 
+		public float z = 0;
+
         /// <summary>
         /// If true then mesh is updated in next Update.
         /// </summary>
@@ -97,6 +99,21 @@ namespace TheKnightsOfUnity.LineRendererPro
         protected virtual void Update()
         {
             // Check if mesh should be updated
+			if(Input.GetKey(KeyCode.X))
+				z += 3*Time.deltaTime;
+			LinePoint end = new LinePoint {
+				color = Color.white,
+				position= new Vector3(z,0,0),
+				width = 0.3f
+			};
+			LinePoint start = new LinePoint {
+				color = Color.white,
+				position = new Vector3 (0, 0, 0),
+				width = 0.3f
+			};
+			linePoints.Clear ();
+			linePoints.Add (start);
+			linePoints.Add (end);
             if (_dirty)
             {
                 // Update mesh

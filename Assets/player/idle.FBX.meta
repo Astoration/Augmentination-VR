@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: c12d5c3393119488a90f29d5d51ef517
+timeCreated: 1474808648
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object028
+    100004: Object029
+    100006: Object030
+    100008: Object031
+    100010: Object032
+    100012: Object033
+    100014: Object034
+    100016: Object035
+    100018: Object036
+    100020: Object038
+    100022: Object039
+    100024: Object040
+    100026: Object042
+    100028: Object044
+    100030: Object045
+    100032: Particle View 001
+    400000: //RootNode
+    400002: Object028
+    400004: Object029
+    400006: Object030
+    400008: Object031
+    400010: Object032
+    400012: Object033
+    400014: Object034
+    400016: Object035
+    400018: Object036
+    400020: Object038
+    400022: Object039
+    400024: Object040
+    400026: Object042
+    400028: Object044
+    400030: Object045
+    400032: Particle View 001
+    2300000: Object028
+    2300002: Object029
+    2300004: Object030
+    2300006: Object031
+    2300008: Object032
+    2300010: Object033
+    2300012: Object034
+    2300014: Object035
+    2300016: Object036
+    2300018: Object038
+    2300020: Object039
+    2300022: Object040
+    2300024: Object042
+    2300026: Object044
+    2300028: Object045
+    3300000: Object028
+    3300002: Object029
+    3300004: Object030
+    3300006: Object031
+    3300008: Object032
+    3300010: Object033
+    3300012: Object034
+    3300014: Object035
+    3300016: Object036
+    3300018: Object038
+    3300020: Object039
+    3300022: Object040
+    3300024: Object042
+    3300026: Object044
+    3300028: Object045
+    4300000: Object042
+    4300002: Object028
+    4300004: Object029
+    4300006: Object030
+    4300008: Object040
+    4300010: Object045
+    4300012: Object044
+    4300014: Object034
+    4300016: Object035
+    4300018: Object036
+    4300020: Object031
+    4300022: Object032
+    4300024: Object033
+    4300026: Object039
+    4300028: Object038
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Object042
+        weight: 1
+      - path: Object042/Object028
+        weight: 1
+      - path: Object042/Object028/Object029
+        weight: 1
+      - path: Object042/Object028/Object029/Object030
+        weight: 1
+      - path: Object042/Object031
+        weight: 1
+      - path: Object042/Object031/Object032
+        weight: 1
+      - path: Object042/Object031/Object032/Object033
+        weight: 1
+      - path: Object042/Object034
+        weight: 1
+      - path: Object042/Object034/Object035
+        weight: 1
+      - path: Object042/Object034/Object035/Object036
+        weight: 1
+      - path: Object042/Object039
+        weight: 1
+      - path: Object042/Object039/Object038
+        weight: 1
+      - path: Object042/Object040
+        weight: 1
+      - path: Object042/Object040/Object045
+        weight: 1
+      - path: Object042/Object040/Object045/Object044
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
