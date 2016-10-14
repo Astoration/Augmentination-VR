@@ -1,91 +1,104 @@
 fileFormatVersion: 2
-guid: b0297ea8024cc4343842557ff3b33638
-timeCreated: 1474808647
+guid: d8bed9830692344a296e3f3041f9d376
+timeCreated: 1476285507
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Object028
-    100004: Object029
-    100006: Object030
-    100008: Object031
-    100010: Object032
-    100012: Object033
-    100014: Object034
-    100016: Object035
-    100018: Object036
-    100020: Object038
-    100022: Object039
-    100024: Object040
-    100026: Object042
-    100028: Object044
-    100030: Object045
-    100032: Particle View 001
-    400000: //RootNode
-    400002: Object028
-    400004: Object029
-    400006: Object030
-    400008: Object031
-    400010: Object032
-    400012: Object033
-    400014: Object034
-    400016: Object035
-    400018: Object036
-    400020: Object038
-    400022: Object039
-    400024: Object040
-    400026: Object042
-    400028: Object044
-    400030: Object045
-    400032: Particle View 001
-    2300000: Object028
-    2300002: Object029
-    2300004: Object030
-    2300006: Object031
-    2300008: Object032
-    2300010: Object033
-    2300012: Object034
-    2300014: Object035
-    2300016: Object036
-    2300018: Object038
-    2300020: Object039
-    2300022: Object040
-    2300024: Object042
-    2300026: Object044
-    2300028: Object045
-    3300000: Object028
-    3300002: Object029
-    3300004: Object030
-    3300006: Object031
-    3300008: Object032
-    3300010: Object033
-    3300012: Object034
-    3300014: Object035
-    3300016: Object036
-    3300018: Object038
-    3300020: Object039
-    3300022: Object040
-    3300024: Object042
-    3300026: Object044
-    3300028: Object045
-    4300000: Object042
-    4300002: Object028
+    100000: arm L
+    100002: arm R
+    100004: body
+    100006: Box001
+    100008: Box002
+    100010: Box003
+    100012: Cone001
+    100014: Cone002
+    100016: hair
+    100018: //RootNode
+    100020: leeg
+    100022: leg
+    100024: Object029
+    100026: Object032
+    100028: Object033
+    100030: Object035
+    100032: Object036
+    100034: Object039
+    100036: Object043
+    100038: Particle View 001
+    400000: arm L
+    400002: arm R
+    400004: body
+    400006: Box001
+    400008: Box002
+    400010: Box003
+    400012: Cone001
+    400014: Cone002
+    400016: hair
+    400018: //RootNode
+    400020: leeg
+    400022: leg
+    400024: Object029
+    400026: Object032
+    400028: Object033
+    400030: Object035
+    400032: Object036
+    400034: Object039
+    400036: Object043
+    400038: Particle View 001
+    2300000: arm L
+    2300002: arm R
+    2300004: body
+    2300006: Box001
+    2300008: Box002
+    2300010: Box003
+    2300012: hair
+    2300014: leeg
+    2300016: leg
+    2300018: Object029
+    2300020: Object032
+    2300022: Object033
+    2300024: Object035
+    2300026: Object036
+    2300028: Object039
+    2300030: Object043
+    3300000: arm L
+    3300002: arm R
+    3300004: body
+    3300006: Box001
+    3300008: Box002
+    3300010: Box003
+    3300012: hair
+    3300014: leeg
+    3300016: leg
+    3300018: Object029
+    3300020: Object032
+    3300022: Object033
+    3300024: Object035
+    3300026: Object036
+    3300028: Object039
+    3300030: Object043
+    4300000: body
+    4300002: arm L
     4300004: Object029
-    4300006: Object030
-    4300008: Object040
-    4300010: Object045
-    4300012: Object044
-    4300014: Object034
-    4300016: Object035
-    4300018: Object036
-    4300020: Object031
-    4300022: Object032
-    4300024: Object033
-    4300026: Object039
-    4300028: Object038
-    7400000: Take 001
+    4300006: Box001
+    4300008: leeg
+    4300010: Object035
+    4300012: Object036
+    4300014: leg
+    4300016: Object032
+    4300018: Object033
+    4300020: Object039
+    4300022: hair
+    4300024: arm R
+    4300026: Object043
+    4300028: Box002
+    4300030: Box003
+    4300032: Cone001
+    4300034: Cone002
+    7400000: jump
     9500000: //RootNode
+    13700000: Cone001
+    13700002: Cone002
   materials:
     importMaterials: 1
     materialName: 0
@@ -108,10 +121,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: jump
       takeName: Take 001
-      firstFrame: 50
-      lastFrame: 76
+      firstFrame: 45
+      lastFrame: 65
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -134,41 +147,47 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Object042
+      - path: body
         weight: 1
-      - path: Object042/Object028
+      - path: body/arm L
         weight: 1
-      - path: Object042/Object028/Object029
+      - path: body/arm L/Object029
         weight: 1
-      - path: Object042/Object028/Object029/Object030
+      - path: body/arm L/Object029/Box001
         weight: 1
-      - path: Object042/Object031
+      - path: body/arm R
         weight: 1
-      - path: Object042/Object031/Object032
+      - path: body/arm R/Object043
         weight: 1
-      - path: Object042/Object031/Object032/Object033
+      - path: body/arm R/Object043/Box002
         weight: 1
-      - path: Object042/Object034
+      - path: body/arm R/Object043/Box002/Box003
         weight: 1
-      - path: Object042/Object034/Object035
+      - path: body/Cone001
         weight: 1
-      - path: Object042/Object034/Object035/Object036
+      - path: body/Cone002
         weight: 1
-      - path: Object042/Object039
+      - path: body/leeg
         weight: 1
-      - path: Object042/Object039/Object038
+      - path: body/leeg/Object035
         weight: 1
-      - path: Object042/Object040
+      - path: body/leeg/Object035/Object036
         weight: 1
-      - path: Object042/Object040/Object045
+      - path: body/leg
         weight: 1
-      - path: Object042/Object040/Object045/Object044
+      - path: body/leg/Object032
+        weight: 1
+      - path: body/leg/Object032/Object033
+        weight: 1
+      - path: body/Object039
+        weight: 1
+      - path: body/Object039/hair
         weight: 1
       - path: Particle View 001
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 50
+      additiveReferencePoseFrame: 45
     isReadable: 1
   meshes:
     lODScreenPercentages: []
