@@ -72,6 +72,7 @@
      <None Include="Assets\Line Renderer Pro\Shaders\Unlit\LineUnlit-Alpha.shader" />
      <None Include="Assets\Line Renderer Pro\Example\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\MapData\맵.txt" />
+     <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\Line Renderer Pro\Example\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Line Renderer Pro\Shaders\Standard\LineStandardUtils.cginc" />
      <None Include="Assets\Line Renderer Pro\Shaders\Standard\LineStandardShadow.cginc" />
@@ -95,14 +96,14 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/Astoration/Documents/UnityProject/TalesSavior/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
- </Reference>
  <Reference Include="GETween">
  <HintPath>/Users/Astoration/Documents/UnityProject/TalesSavior/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
  </Reference>
  <Reference Include="GUIAnimatorFREE">
  <HintPath>/Users/Astoration/Documents/UnityProject/TalesSavior/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>/Users/Astoration/Documents/UnityProject/TalesSavior/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

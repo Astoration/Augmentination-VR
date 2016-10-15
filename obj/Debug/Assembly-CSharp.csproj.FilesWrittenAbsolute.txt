@@ -19,3 +19,5 @@
 /Users/Astoration/Documents/UnityProject/TalesSavior/Temp/bin/Debug/Google.ProtocolBuffers.dll
 /Users/Astoration/Documents/UnityProject/TalesSavior/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
 /Users/Astoration/Documents/UnityProject/TalesSavior/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/Astoration/Documents/UnityProject/TalesSavior/Temp/bin/Debug/GETween.dll
+/Users/Astoration/Documents/UnityProject/TalesSavior/Temp/bin/Debug/GUIAnimatorFREE.dll

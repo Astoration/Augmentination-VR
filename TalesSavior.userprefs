@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GE Common Assets/GE Touch Joystick/CrossPlatformInput/Scripts/Editor/InputAxisScrollbarCI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TitleScene.cs">
     <Files>
-      <File FileName="Assets/Scripts/MapCreator.cs" Line="15" Column="34" />
-      <File FileName="Assets/Scripts/Player.cs" Line="39" Column="66" />
+      <File FileName="Assets/Scripts/Monster.cs" Line="29" Column="108" />
       <File FileName="Assets/Line Renderer Pro/Scripts/LineRendererPro.cs" Line="1" Column="1" />
-      <File FileName="Assets/GE Common Assets/GE Touch Joystick/CrossPlatformInput/Scripts/Editor/InputAxisScrollbarCI.cs" Line="6" Column="1" />
+      <File FileName="Assets/Scripts/LifeManager.cs" Line="6" Column="9" />
+      <File FileName="Assets/Scripts/SpawnManager.cs" Line="7" Column="23" />
+      <File FileName="Assets/Scripts/TitleScene.cs" Line="14" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

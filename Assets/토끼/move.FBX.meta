@@ -76,7 +76,57 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: Sphere001
+        weight: 1
+      - path: Sphere001/Capsule001
+        weight: 1
+      - path: Sphere001/Capsule001/ChamferBox001
+        weight: 1
+      - path: Sphere001/Capsule002
+        weight: 1
+      - path: Sphere001/Capsule002/ChamferBox003
+        weight: 1
+      - path: Sphere001/ChamferBox002
+        weight: 1
+      - path: Sphere001/ChamferBox004
+        weight: 1
+      - path: Sphere001/Sphere002
+        weight: 1
+      - path: Sphere001/Sphere003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
