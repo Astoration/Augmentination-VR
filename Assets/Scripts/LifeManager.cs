@@ -8,6 +8,8 @@ public class LifeManager : MonoBehaviour {
 
 	public static LifeManager instance;
 
+	public GameObject gameover;
+
 	void Awake(){
 		if (instance == null)
 			instance = this;
@@ -16,7 +18,14 @@ public class LifeManager : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
+	IEnumerator Gameover(){
+		Time.timeScale = 0;
+		gameover.SetActive (true);
+		yield return new WaitForSecondsRealtime(3f);
+		SceneManager.LoadScene ("TitleScene");
+	}
+
 	// Update is called once per frame
 	void Update () {
 		for (int i = 0; i < 3; i++) {
@@ -26,7 +35,7 @@ public class LifeManager : MonoBehaviour {
 				lifes [i].SetActive (false);
 		}
 		if (life <= 0) {
-			SceneManager.LoadScene ("TitleScene");
+			StartCoroutine (Gameover ());
 		}
 	}
 }
